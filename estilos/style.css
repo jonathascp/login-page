@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-image: url(../imagens/background-img.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.principal {
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+
+.login {
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.campo-login {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+.campo-login input {
+    border: none;
+    outline: none;
+}
+
+.campo-senha {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+}
+
+.campo-senha input {
+    border: none;
+    outline: none;
+}
+
+.enviar {
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 1px solid black;
+     padding: 10px 0; 
+    /* border-radius: 30px; */
+    background-image: linear-gradient(to left,rgb(68, 68, 252),rgb(214, 1, 214));
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.esquecer-senha {
+    font-size: 0.8em;
+    color: gray;
+    text-decoration: none;
+}
