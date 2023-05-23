@@ -16,6 +16,7 @@ body,html {
     background-image: url(../imagens/background-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .principal {
@@ -25,11 +26,6 @@ body,html {
     padding: 1.25em;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
-  
 }
 
 .login {
@@ -47,29 +43,33 @@ body,html {
 }
 
 .campo-login {
+    width: 100%;
     display: flex;
     gap: 10px;
     border-bottom: 1px solid black;
 }
 
 .campo-login input {
+    width: 100%;
     border: none;
     outline: none;
 }
 
 .campo-senha {
+    width: 100%;
     display: flex;
     gap: 10px;
     border-bottom: 1px solid black;
 }
 
 .campo-senha input {
+    width: 100%;
     border: none;
     outline: none;
 }
 
 .enviar {
-    width: 90%;
+    width: 13em;
     font-size: 1.3em;
     font-weight: bold;
     border: 1px solid black;

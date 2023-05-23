@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     link
       rel="stylesheet">
@@ -17,8 +18,7 @@
         <form class="form" action="" autocomplete="on">
             <div class="campo-login">
                     <label class="usuario" for="iusuario"><span class="material-icons">person</span></label>
-                        <input type="email" name="usuario" id="iusuario" maxlength="20" required placeholder="Seu e-mail">
-                </fieldset>
+                        <input type="email" name="usuario" id="iusuario" minlength="10" maxlength="30" required placeholder="Seu e-mail">
             </div>
             <div class="campo-senha">
                 <label class="senha" for="isenha"><span class="material-icons">vpn_key</span></label>
