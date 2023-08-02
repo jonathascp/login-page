@@ -74,7 +74,6 @@ body,html {
     font-weight: bold;
     border: 1px solid black;
      padding: 10px 0; 
-    /* border-radius: 30px; */
     background-image: linear-gradient(to left,rgb(68, 68, 252),rgb(214, 1, 214));
     color: #fff;
     outline: none;
@@ -85,4 +84,9 @@ body,html {
     font-size: 0.8em;
     color: gray;
     text-decoration: none;
+}
+
+.esquecer-senha:hover {
+    color:#000;
+    transition: .5s;
 }
