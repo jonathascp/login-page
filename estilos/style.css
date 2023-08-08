@@ -86,6 +86,11 @@ body,html {
     text-decoration: none;
 }
 
+.remember {
+    font-size: 0.8em;
+    color: gray;
+}
+
 .esquecer-senha:hover {
     color:#000;
     transition: .5s;
